@@ -1,0 +1,14 @@
+<<!DOCTYPE html>
+<html>
+<!-- Especifica las versiones de html a utilizar-->
+<head>
+	<title> </title>
+</head>
+
+<a href="htpp://www.facebook.com" title=" Facebok ">hreflang ="esp" target ="_blank " click para ir a facebook </a>
+<body>
+
+</body>
+</html>
+<!--el hreflang Idioma para la busqueda-->
+<!-- target : blank abre el enlace en otra pestaña-->

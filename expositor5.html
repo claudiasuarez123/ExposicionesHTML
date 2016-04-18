@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <script>
+	   window.onload = function (){
+	// Recibimos el elemento canvas 
+	var elemento= document.getElementById('micanvas')
+	// Comprobacion sobre si encontraras un elemento 
+	// y podemos extraer su contexto con getContext (), que indica compatibilidad con canvas
+
+	if (elemento && elemento.getContext){
+		// accedio al contexto de '2d' de este canvas , necesario para dibujar 
+		var contexto = elemento.getContext('2d');
+		if (contexto){
+		//si  tengo el contexto 2d es que todo ha ido biuen y 
+
+		contexto.fillRect(0,0,550,100) ;
+		contexto.fillStyle= '#cc0000';
+		contexto.fillRect (10,10,100,70);
+		}
+	}
+}
+</script>
+</head>
+<body>
+
+<canvas id = 'micanvas' width ="200" height= "100">
+Este texto se muestra para los navegadires no compatibles con canvas.
+<br>
+Por favor utiliza Firefox , Chrome,Safari u Opera
+
+</canvas>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<center>mi estilo de vida </center>
+<cite draggable> EL CONOCIMIENTO ES PODER </cite>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<code>
+	<pre> 
+	&lbbody/rb
+	public class holamundo {
+		public static main (String args){
+		System.out.println ("hola mundo");
+		}
+			}
+	</pre>
+	</code>
+	</p>
+	</body>
+</body>
+</html>
+

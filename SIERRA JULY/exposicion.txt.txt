@@ -1,0 +1,81 @@
+<<!DOCTYPE html>
+<html>
+<head>
+
+<!--La etiqueta ruby sirve para marcar anotaciones ruby en lenguajes ideogramáticos (como el chino o el japonés) que sirven como guía para la pronunciación.
+El texto que va a ser objeto de anotación va dentro de la etiqueta ruby, acompañado de las anotaciones marcadas con la etiqueta rt. También se puede añadir la etiqueta rp para marcar los paréntesis alrededor de la anotación (para los navegadores que no soportan estas etiquetas; los que la soportan no muestran el contenido de rp).Sus atributos son globales-->
+	<title></title>
+</head>
+<body>
+<!--Las letras en japones y chino no apareceran en el navegador solo en este programa.-->
+		<h1>
+<ruby> 私 = Yo en japones <rt> わたし = Privado en chino </rt></ruby>
+<br>
+<br>
+<br>
+<ruby> 名前 = Nombre en japones <rt> なまえ = Nombre en chino</rt>
+</ruby>
+</h1>
+
+</body>
+</html>
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<section>
+      
+        <center>
+        <h1> AUTOESTIMA </h1>
+        <br>
+        <p>La Autoestima es la valoraci�n que tenemos de nosotros mismos,
+            es decir cuanto apreciamos nuestra forma de vivir
+            y si es necesario cambiarla para mejora y no ser un mediocre.<br>
+            La Autoestima de una persona muchas veces depende de la educaci�n
+            y/o de los que los padres ense�en
+            y del cari�o y el amor que ellos muestren.</p></center>
+
+      </section>
+
+</body>
+</html>
+ <<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title></title>
+ </head>
+ <body>
+
+ 	<p> El resultado que se obtiene es el siguiente:</p>
+ <!--esta etiqueta es para la salida de un mensaje: SUS ATRIBUTOS SON GLOBALES. Es de html5-->
+ 	<samp> Hola Jovenes C�mo est�n?</samp>
+
+
+ </body>
+ </html>
+</body>
+</html>
+
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<!--se utiliza para html4 es para que las palabras queden tachadas. SUS ATRIBUTOS SON GLOBALES. 
+Funciona en todos los navegadores-->
+	<p>la palabra tachada va a ser <s> july </s> con la etiqueta s.</p>
+	<p>las palabras tachadas van a ser <s>ESTE TEMA ES ENTENDIBLE </s></p>
+
+</body>
+</html>

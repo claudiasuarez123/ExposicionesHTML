@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Etiqueta dd </title>
+</head>
+<body>
+		<dl>
+			<dt> Coffe </dt>
+			<dd> beber tinto caliente </dd>
+			<dt>leche</dt>
+			<dd>beber leche fria </dd>
+			</dl>
+			<p> hola mundo<del></del><ins></ins></p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> etiqueta details </title>
+
+</head>
+<body>
+		<details>
+		<summary> nacio en 1998 - 2020</summary>
+		<p>ella nacio en sogamoso - boyaca </p>
+		</details>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Etiqueta Dialog </title>
+	<style>
+	<table, th , td {
+		border :1px solid black;
+	}
+</style>
+</head>
+<body>
+		<p><b>Note :</b>la etiqueta dialog solo soporta chrome opera </p>
+		<table >
+		<tr>
+		<th> Julio <dialog open > esta es una ventana  de dialogo abierto </dialog></th>
+		<th> AGOSTO </th>
+		<th> SEPTIEMBRE </th>
+		</tr>
+		<tr>
+			<td> 31 </td>
+			<th> 23</th>
+			<th> 12 </th>
+		</tr>
+		</table>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ETIQUETA TEMPLETE </title>
+</head>
+<body>
+
+		<table border ="1" id="producttable">
+  <thead>
+    <tr>
+      <td>UPC_Code</td>
+      <td>Product_Name</td>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- existing data could optionally be included here -->
+  </tbody>
+</table>
+
+<template id="productrow">
+  <tr>
+    <td class="record"></td>
+    <td></td>
+  </tr>
+
+</template>
+</body>
+</html>
+
+<script type="text/javascript">
+  if ('content' in document.createElement('template')) {
+
+  // Instantiate the table with the existing HTML tbody and the row with the template
+  var t = document.querySelector('#productrow'),
+  td = t.content.querySelectorAll("td");
+  td[0].textContent = "1235646565";
+  td[1].textContent = "Stuff";
+
+  // Clone the new row and insert it into the table
+  var tb = document.getElementsByTagName("tbody");
+  var clone = document.importNode(t.content, true);
+  tb[0].appendChild(clone);
+  
+  // Create a new row
+  td[0].textContent = "0384928528";
+  td[1].textContent = "Acme Kidney Beans";
+
+  // Clone the new row and insert it into the table
+  var clone2 = document.importNode(t.content, true);
+  tb[0].appendChild(clone2);
+
+} else {
+  // Find another way to add the rows to the table because 
+  // the HTML template element is not supported.
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
